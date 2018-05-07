@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="YahooFinanceAdaptee">
+    <Position X="13.25" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAQAAAAAgBCAAAAMEAAEAAABAAQA=</HashCode>
+      <FileName>MarketData-AdaptorPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarketDataTarget">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarketData-AdaptorPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarketDataAdaptor">
+    <Position X="10.5" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAQAAAAAAAACAAAAEAAACAAAAAAAA=</HashCode>
+      <FileName>MarketData-AdaptorPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Display">
+    <Position X="7" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAABAA=</HashCode>
+      <FileName>Display-TemplatePattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger">
+    <Position X="19.25" Y="2.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQACAAAAIAAAAAAAAAAAAABAAAAAAAAABAAAABAAQ=</HashCode>
+      <FileName>Logging-SingletonPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Security">
+    <Position X="11.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Security-FactoryMethodPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Futures">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Security-FactoryMethodPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SecuritiesFactory">
+    <Position X="2.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security-FactoryMethodPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockFactory">
+    <Position X="4" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security-FactoryMethodPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturesFactory">
+    <Position X="0.5" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Security-FactoryMethodPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stock">
+    <Position X="10.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAYwAAAAAgAAAABAAAIAAECCAAQA=</HashCode>
+      <FileName>Stock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechnicalAnalysis">
+    <Position X="20.25" Y="9" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAACAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TechnicalAnalysis-StrategyPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSI">
+    <Position X="18.5" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAACAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TechnicalAnalysis-StrategyPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StochasticOscillator">
+    <Position X="23" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAACAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TechnicalAnalysis-StrategyPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StockQuotes" Collapsed="true">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MYASAACAAAQAAIAAACBCCEIABIAAIAAAIIAAAAgSIAA=</HashCode>
+      <FileName>dataTypes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="stockQuotesMap" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dataTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stockQuotesMapIterator" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dataTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

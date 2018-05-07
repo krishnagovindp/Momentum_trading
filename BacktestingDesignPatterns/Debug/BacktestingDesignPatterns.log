@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  TechnicalAnalysis-StrategyPattern.cpp
+  Stock.cpp
+  Security-FactoryMethodPattern.cpp
+  Logging-SingletonPattern.cpp
+  getInputParameters.cpp
+  BacktestingDesignPatterns.cpp
+  MarketData-AdaptorPattern.cpp
+  Generating Code...
+  BacktestingDesignPatterns.vcxproj -> D:\Design Patterns and Derivatives\545 Project-Backtesting-Jacob Varughese, Krishna Praturi\BacktestingDesignPatterns\Debug\BacktestingDesignPatterns.exe
+  BacktestingDesignPatterns.vcxproj -> D:\Design Patterns and Derivatives\545 Project-Backtesting-Jacob Varughese, Krishna Praturi\BacktestingDesignPatterns\Debug\BacktestingDesignPatterns.pdb (Full PDB)

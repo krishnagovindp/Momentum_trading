@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  MarketData-AdaptorPattern.cpp
+  BacktestingDesignPatterns.cpp
+  getInputParameters.cpp
+  Logging-SingletonPattern.cpp
+  Security-FactoryMethodPattern.cpp
+  Stock.cpp
+  TechnicalAnalysis-StrategyPattern.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  1063 of 1083 functions (98.2%) were compiled, the rest were copied from previous compilation.
+    17 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BacktestingDesignPatterns.vcxproj -> D:\Design Patterns and Derivatives\545 Project-Backtesting-Jacob Varughese, Krishna Praturi\BacktestingDesignPatterns\Release\BacktestingDesignPatterns.exe
+  BacktestingDesignPatterns.vcxproj -> D:\Design Patterns and Derivatives\545 Project-Backtesting-Jacob Varughese, Krishna Praturi\BacktestingDesignPatterns\Release\BacktestingDesignPatterns.pdb (Full PDB)
